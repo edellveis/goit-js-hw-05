@@ -9,7 +9,8 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
-const sortByDescendingFriendCount= users => users.filter(person => person.)
+const sortByDescendingFriendCount = users => users.toSorted((elOne, elTwo) => elTwo.friends.length - elOne.friends.length);
+
 
 console.log(
   sortByDescendingFriendCount([
